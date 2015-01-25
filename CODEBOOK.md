@@ -5,8 +5,8 @@ https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
   
   
   CODEBOOK.md_Number:   Maps_to:        CODEBOOK_Variable_Name:        Maps to:   FEATURES.txt_Variable_Number:  Maps to:     FEATURES.txt_Variable_Name:                               Description:
-           1               ->                  subjectID                  ->                   NA                   ->                    NA                                                 NA
-           2               ->             activityDescription             ->                   NA                   ->                    NA                                                 NA
+           1               ->                  subjectID                  ->                   NA                   ->                    NA                                       Subject identification (id)
+           2               ->             activityDescription             ->                   NA                   ->                    NA                                       Description of the activity
            3               ->                tBodyAccMeanX                ->                    1                   ->             tBodyAcc-mean()-X               Time Body Accelation Signal- Average -Along X dimension
            4               ->                tBodyAccMeanY                ->                    2                   ->             tBodyAcc-mean()-Y               Time Body Accelation Signal- Average -Along Y dimension
            5               ->                tBodyAccMeanZ                ->                    3                   ->             tBodyAcc-mean()-Z               Time Body Accelation Signal- Average -Along Z dimension

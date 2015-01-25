@@ -3,29 +3,25 @@ README.md
 -----------------------------------------------------------------------------------------------------------------------------------
 
 FILES SUBMITED:
-	- (1) run_analysis.R - produces tidy dataset
-	
-	- (2) CODEBOOK.md - contains variable description
-	
+
+	- (1) run_analysis.R - produces tidy dataset	
+	- (2) CODEBOOK.md - contains variable description	
 	- (3) README.md - provides basic instructions
 
 	
 	
 SET UP INSTRUCTIONS:
-	- 1. Download and extract data in working directory. 
-	
-	- 2. Rename the datasets folder to "datasets". 
-	
-	- 3. Place the file in the working directory.
-	
-	- 4. Execute the run_analysis.R code. 
-	
+
+	- 1. Download and extract data in working directory. 	
+	- 2. Rename the datasets folder to "datasets". 	
+	- 3. Place the file in the working directory.	
+	- 4. Execute the run_analysis.R code. 	
 	- 5. The result will produce "tidy_dataset.txt" file saved in the working directory where the run_analysis.R is located. 
 	
 	
 	
 
- *IMPORTANT NOTE!* - I couldn't not figure out how to make this file readable CODEBOOK.md file in GITHUB in normal view. I always get some odd data layout. 
+ ##IMPORTANT NOTE!## - I couldn't not figure out how to make this file readable CODEBOOK.md file in GITHUB in normal view. I always get some odd data layout. 
 					The file can be read in raw view in github.com (when you click on the file you will see a button that says or raw). 
 					Here is the direct link to the raw file:
 					https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md

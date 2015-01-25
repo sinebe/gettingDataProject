@@ -1,4 +1,4 @@
-Important. Must be read as raw file in github. Link below direct you to raw file:
+Important. Must be read as raw file in github or downloaded to computer and read with Notepad++. Link below direct you to raw file:
 
 https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
   

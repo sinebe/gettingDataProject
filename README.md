@@ -3,9 +3,9 @@ README.md
 -----------------------------------------------------------------------------------------------------------------------------------
 
 FILES SUBMITED:
-	- 1. run_analysis.R - produces tidy dataset
-	- 2. CODEBOOK.md - contains variable description
-	- 3. README.md - provides basic instructions
+	- (1) run_analysis.R - produces tidy dataset
+	- (2) CODEBOOK.md - contains variable description
+	- (3) README.md - provides basic instructions
 
 	
 SET UP INSTRUCTIONS:

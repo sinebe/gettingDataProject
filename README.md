@@ -18,16 +18,15 @@ SET UP INSTRUCTIONS:
 	- 4. Execute the run_analysis.R code. 	
 	- 5. The result will produce "tidy_dataset.txt" file saved in the working directory where the run_analysis.R is located. 
 	
-	
-	
+		
 
-					##IMPORTANT NOTE! 
+IMPORTANT NOTE! 
  
-					I couldn't not figure out how to make CODEBOOK.md file readable in GITHUB in normal view (still learning). I always get some odd data layout. 
-					The file can be read in raw view in github.com (when you click on the file you will see a button that says or raw). 
-					Here is the direct link to the raw file:
-					https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
-					
+	I couldn't not figure out how to make CODEBOOK.md file readable in GITHUB in normal view (still learning). I always get some odd data layout. 
+	The file can be read in raw view in github.com (when you click on the file you will see a button that says or raw). 
+	Here is the direct link to the raw file:
+	https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
+	
 					
 					
 	On my machine is this is the WD set-up:
@@ -49,6 +48,8 @@ SET UP INSTRUCTIONS:
 		| - README.md (optional - not needed for the code)
 		| - CODEBOOK.md (optional - not needed for the code)
 
+		
+		
 -----------------------------------------------------------------------------------------------------------------------------------
 CODEBOOK.md instructions:
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -57,7 +58,9 @@ CODEBOOK.md instructions:
 					Here is the direct link to the raw file:
 					https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
 
-					
+	
+
+	
 	- This files contains data variable names, mapping to original variables, and short description of each variable used.
 	- File structure is as follows:
 			Variable number -> New Variable Name -> Original Variable Index -> Original Variable Name -> Short Description.
@@ -82,12 +85,15 @@ CODEBOOK.md instructions:
 run_analysis.R instructions:
 -----------------------------------------------------------------------------------------------------------------------------------	
 
+
+
 	Package dependencies:
 		plyr
 		dplyr
 		data.table
 		
 	Code is split in 5 section where each section answers assignment question in order:
+	
 	
 	----------------------
 	Section 1:

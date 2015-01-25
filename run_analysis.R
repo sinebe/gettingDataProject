@@ -48,6 +48,8 @@ combinedDataset = rbind(trainingDataSet, testDataSet)
 #################
 ##  SECTION 2  ##
 #################
+
+
 variables <- read.table("datasets/UCI HAR Dataset/features.txt", stringsAsFactors = FALSE)
 variables <- variables[,2]
 
@@ -56,13 +58,13 @@ variables <- variables[,2]
 meanColumnIndex <- grep("mean", variables, ignore.case = TRUE)
 stdColumnIndex <- grep("std", variables, ignore.case = TRUE)
 meanStdIndex <- sort(c(meanColumnIndex,stdColumnIndex))
-meanStdIndexAdj <- meanStdindex + 3 #add three columns to the index 
+meanStdIndexAdj <- meanStdIndex + 3 #add three columns to the index 
 
   #EXTRACT MEAN STANDARD DEVIATION COLUMNS FROM THE DATASET
 subCombinedDataSet = combinedDataset[, c(1:3,meanStdIndexAdj)]
 
   #CHECK
-data.frame (names(subCombinedDataSet)) # list (using data frame) of all mean and standard deviation variables
+#data.frame (names(subCombinedDataSet)) # list (using data frame) of all mean and standard deviation variables
 
 
 
@@ -79,7 +81,7 @@ subCombinedDataSetActivity <- subCombinedDataSetActivity [,c(1:3,90,4:89)] #vari
 
 
  #CHECK
-View(data.frame (names(subCombinedDataSetActivity)))
+#View(data.frame (names(subCombinedDataSetActivity)))
 
 
 #################
@@ -96,7 +98,7 @@ stdColumnIndexNaming <- grep("std", variables, ignore.case = TRUE)
 meanStdIndexNaming = sort(c(meanColumnIndexNaming,  stdColumnIndexNaming))
 meanStdColsNaming = variables[meanStdIndexNaming]
 
-colNames = append(c('subjectID',  "dataSource", 'activityID', 'activityDescription'),meanStdCols)
+colNames = append(c('subjectID',  "dataSource", 'activityID', 'activityDescription'),meanStdColsNaming)
 
 cleanedcols = gsub("(","", colNames, fixed = TRUE)
 cleanedcols = gsub(")","", cleanedcols, fixed = TRUE)

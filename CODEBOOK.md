@@ -1,3 +1,9 @@
+Important. Must be read as raw file in github. Link below direct you to raw file:
+
+https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
+  
+  
+  
   CODEBOOK.md_Number:   Maps_to:        CODEBOOK_Variable_Name:        Maps to:   FEATURES.txt_Variable_Number:  Maps to:     FEATURES.txt_Variable_Name:                               Description:
            1               ->                  subjectID                  ->                   NA                   ->                    NA                                                 NA
            2               ->             activityDescription             ->                   NA                   ->                    NA                                                 NA

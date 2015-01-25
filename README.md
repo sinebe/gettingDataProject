@@ -21,7 +21,9 @@ SET UP INSTRUCTIONS:
 	
 	
 
- ##IMPORTANT NOTE!## - I couldn't not figure out how to make this file readable CODEBOOK.md file in GITHUB in normal view. I always get some odd data layout. 
+					##IMPORTANT NOTE! 
+ 
+					I couldn't not figure out how to make CODEBOOK.md file readable in GITHUB in normal view (still learning). I always get some odd data layout. 
 					The file can be read in raw view in github.com (when you click on the file you will see a button that says or raw). 
 					Here is the direct link to the raw file:
 					https://raw.githubusercontent.com/sinebe/gettingDataProject/master/CODEBOOK.md
